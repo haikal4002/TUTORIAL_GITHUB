@@ -23,7 +23,11 @@ Lalu cek repo github kalian, apakah sudah terupload apa belum filenya
 
 ###### Membuat Perubahan Pada File #######
 
-Disini jika ada teman atau team kalian yang memperbarui file tersebut atau menghapus file lain kalian bisa 
+Disini jika ada teman atau team yang memperbarui file tersebut atau menghapus file lain kalian bisa "Sync Changes"
+Itu bertujuan agar merefrehs perubahan yang ada pada isi reposiory
+Secara tidak langsung itu akan melakukan action pull dan push
+
+Selesai!!
 
 
 
