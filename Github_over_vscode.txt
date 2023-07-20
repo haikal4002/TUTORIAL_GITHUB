@@ -11,5 +11,19 @@ D (Deleted) = File yang telah dihapus
 A (Added) = file yang ditambahkan dalam mode staged
 ############
 
+Lalu kalian klik tanda tambah pada setiap filenya agar statusnya menjadi (Added)
+Lalu masukkan nama commitnya misal "first-commit"
+Lalu klik tanda centang "commit"
+Lalu kita remote githubnya dengan masuk ke menu "View" --> "Command Pallete", lalu cari "Git: Add Remote"
+Lalu pilih "Add Remote from Github"
+Lalu akan muncul banyak reposiory, kalian pilih repo yang kalian buat tadi
+Lalu masukkan remote namenya (misal: latihan-git)
+Lalu kalian "Publish Changes"
+Lalu cek repo github kalian, apakah sudah terupload apa belum filenya
+
+###### Membuat Perubahan Pada File #######
+
+Disini jika ada teman atau team kalian yang memperbarui file tersebut atau menghapus file lain kalian bisa 
+
 
 
