@@ -1,1 +1,15 @@
+Pastikan kalian sudah siapkan repository baru di Github kalian
+Buka folder kalian di vscode
+Pastikan vscode kalian terhubung dengan github kalian, jika belum maka hubungkan terlebih dahulu pada menu akun
+Masuk ke menu Source Control (Ctrl+Shift+G)
+Klik Initialize Repository, maka akan muncul simbol-simbol pada setiap file dan direktori
+Berikut arti simbol-simbolnya:
+###########
+U (Untracked) = file yang belum pernah dimasukkan ke dalam GIT (file baru)
+M (Modified) = file yang sudah pernah masuk ke dalam database GIT dan pernah dimodifikasi
+D (Deleted) = File yang telah dihapus
+A (Added) = file yang ditambahkan dalam mode staged
+############
+
+
 
