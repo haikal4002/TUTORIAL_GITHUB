@@ -1,0 +1,49 @@
+## CARA MENGINTEGRASIKAN DIRECTORY LOKAL ANDA DENGAN GITHUB MELALUI GIT ##
+
+Download GIT melalui https://git-scm.com/downloads
+Install GIT
+Cek melalui CMD dengan mengetikan perintah "git --version"
+Membuat username di GIT dengan perintah "git config --global user.name "Your_name""
+konfirmasi username apakah telah dibuat dengan perintah "git config --global user.name"
+Masuk ke github anda klik profilemu, pergi ke settings
+Masuk ke menu emails pada bagian Access, tambahkan email lalu add
+Setting email di GIT dengan perintah "git config --global user.email "YOUR_EMAIL""
+Konfirmasi apakah email tersebut telah terhubung ke GIT dengan perintah "git config --global user.email"
+
+## CARA MENYAMBUNGKAN REPOSITORY di GITHUB ##
+
+Buat Repository baru di github atau boleh pake yang lama
+Masuk ke CMD buat fie dengan perintah "echo "ini_test" >> README.md"
+Lakukan inisialisasi dengan perintah "git init"
+Lalu kalian remote repository yang kalian buat dengan perintah "git remote add origin https://your_link_repository"
+Lalu kalian tambahkan file yang akan di upload dengan perintah "git add README.md"
+Lalu kalian commit dengan perintah "git commit -m "nama_perubahan""
+Lalu kalian tentukan branch yang dipakai
+Defaultnya menggunakan main branch, kalian bisa gunakan perintah "git branch -M main"
+Lalu kalian push (upload file yang kalian tambahkan) dengan perintah "git push -u origin main"
+Lalu kalian cek di repo github kalian apakah ada file yang kalian buat tadi
+
+## DOWNLOAD FILE dan UPLOAD FILE DARI REPO GITHUB ##
+
+##Note:
+Contoh kasus: ada orang yang mengunduh file kalian yang ada di repo kalian lalu dia edit dan dia upload kembali ##
+
+Untuk download file dari github kita gunakan perintah "git clone https://your_link_repository"
+Lalu kalian masukkan perintah "git remote -v" untuk melihat verbose, maka akan tampil seperti berikut
+
+C:\Users\HAIKAL\Desktop\TES\project-1>git remote -v
+origin  https://github.com/haikal4002/Testing-1.git (fetch)
+origin  https://github.com/haikal4002/Testing-1.git (push)
+
+Lalu kalian edit file tersebut dan kalian push lagi ke repo yang tadi
+Kalian tambahkan file yang akan di push dengan perintah "git add README.>md"
+lalu kalian commit dengan perintah "git commit -m "nama_perubahan""
+Lalu kalian push (upload file yang kalian tambahkan) dengan perintah "git push"
+Lalu kalian cek isi dari file di github kalian maka akan berubah
+
+Untuk merefresh perubahan dari file yang sebelumnya telah di upload
+Kalian bisa gunakan perintah "git pull"
+Maka akan isi file akan berubah sesuai yang diedit tadi
+
+
+## THX ##
