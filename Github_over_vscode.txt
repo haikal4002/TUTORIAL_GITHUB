@@ -27,6 +27,14 @@ Disini jika ada teman atau team yang memperbarui file tersebut atau menghapus fi
 Itu bertujuan agar merefrehs perubahan yang ada pada isi reposiory
 Secara tidak langsung itu akan melakukan action pull dan push
 
+####### Cloning Git di Vscode ########
+
+Klik menu View --> Command Pallete, lalu cari "Git: Clone"
+Lalu pilih "Clone from GitHub" dan tekan Enter
+Selanjutnya pilih repository kalian yang akan di clone lalu tekan enter, 
+Lalu bisa kalian open, otomatis akan diarahkan ke direktorynya
+
+
 Selesai!!
 
 
